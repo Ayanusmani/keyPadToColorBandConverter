@@ -1,4 +1,4 @@
-# keyPadToColorConverter
+# keyPadToColorBandConverter
 
 ## Demo Video
 [![Ayan's Project](https://cdn.discordapp.com/attachments/604858388257439765/925990566481780746/unknown.png)](https://www.youtube.com/watch?v=7CTaBSoadaQ)
