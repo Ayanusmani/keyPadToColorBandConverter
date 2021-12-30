@@ -11,3 +11,8 @@ Components used:
 - 1x 10k potentiometer
 - Breadboard
 - Jumper wires
+
+Libraries Used:
+- LiquidCrystal.h
+- Keypad.h by Mark Stanley, Alexander Brevig
+  Link to download: https://playground.arduino.cc/Code/Keypad/
