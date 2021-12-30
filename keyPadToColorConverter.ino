@@ -7,7 +7,8 @@ LiquidCrystal lcd(8, 9, 10, 11, 12, 13);
 
 const byte ROWS = 4; //four rows
 const byte COLS = 4; //four columns
-//define the cymbols on the buttons of the keypads
+
+//define the symbols on the buttons of the keypads
 char hexaKeys[ROWS][COLS] = {
   {'1','2','3','A'},
   {'4','5','6','B'},
@@ -20,7 +21,6 @@ byte colPins[COLS] = {44, 42, 40, 38}; //connect to the column pinouts of the ke
 //initialize an instance of class NewKeypad
 Keypad customKeypad = Keypad( makeKeymap(hexaKeys), rowPins, colPins, ROWS, COLS); 
 
-int i=0;
 int band[3];
 int stage = 0;
 
@@ -44,12 +44,9 @@ void setup() {
   delay(5000);
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("the resistance.");
+  lcd.print("the resistance."); //Printing instructions to screen
   delay(5000);
   lcd.clear();
-  //lcd.setCursor(0, 1);
-  //lcd.print("two digits.");
-
 }
 
 void loop() {
@@ -59,13 +56,13 @@ void loop() {
   if (key != NO_KEY){
     
 
-    if (stage < 3){
+    if (stage < 3){ //getting first 2 numbers of resistance from user
       
       
     if(key == '1'){
       lcd.setCursor(stage, 0);
       lcd.print(key);
-      band[stage] = 1;
+      band[stage] = 1; //keypad inputs are converted from char to int
     }
     
     if(key== '2'){
@@ -120,10 +117,10 @@ void loop() {
     }
     stage++;
     }
-    while (stage == 3){
+    while (stage == 3){ //when colors are determined and ready to print; continously print
       lcd.clear();
       lcd.setCursor(0, 0);
-      lcd.print("First Band:");
+      lcd.print("First Band:"); //printing first band
       lcd.setCursor(0, 1);
       if (band[0]==1){
         lcd.print("Brown");
@@ -158,7 +155,7 @@ void loop() {
       delay(2000);
       lcd.clear();
       lcd.setCursor(0, 0);
-      lcd.print("Second Band:");
+      lcd.print("Second Band:"); //printing second band
       lcd.setCursor(0, 1);
       if (band[1]==1){
         lcd.print("Brown");
@@ -193,7 +190,7 @@ void loop() {
       delay(2000);
       lcd.clear();
       lcd.setCursor(0, 0);
-      lcd.print("Third Band:");
+      lcd.print("Third Band:"); //printing third band
       lcd.setCursor(0, 1);
       if (key == '2'){
         lcd.print("Black");
