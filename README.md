@@ -15,4 +15,4 @@ Components used:
 Libraries Used:
 - LiquidCrystal.h
 - Keypad.h by Mark Stanley, Alexander Brevig
-  Link to download: https://playground.arduino.cc/Code/Keypad/
+Link to download: https://playground.arduino.cc/Code/Keypad/
