@@ -1,12 +1,7 @@
 # keyPadToColorConverter
 
-<a href="https://www.youtube.com/watch?v=7CTaBSoadaQ">
-  <h3> Demo Video </h4>
-  <img src="https://cdn.discordapp.com/attachments/604858388257439765/925990566481780746/unknown.png" alt="Ayan's Project">
-</a>
-
-
-<br>
+## Demo Video
+[![Ayan's Project](https://cdn.discordapp.com/attachments/604858388257439765/925990566481780746/unknown.png)](https://www.youtube.com/watch?v=7CTaBSoadaQ)
 
 
 
