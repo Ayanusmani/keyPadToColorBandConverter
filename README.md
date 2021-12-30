@@ -18,3 +18,14 @@ Libraries Used:
 - LiquidCrystal.h
 - Keypad.h by Mark Stanley, Alexander Brevig
 Link to download: https://playground.arduino.cc/Code/Keypad/
+
+
+## Images
+
+<img src="./Demo Pic1.JPG">
+
+<img src="./Demo pic 2.JPG">
+
+<img src="./Demo pic 3.JPG">
+
+
