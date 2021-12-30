@@ -1,6 +1,13 @@
 # keyPadToColorConverter
 
-Demo Video: https://www.youtube.com/watch?v=7CTaBSoadaQ&ab_channel=AyanUsmani
+ <div style="width: 300px">
+  <a href="https://www.youtube.com/watch?v=7CTaBSoadaQ">
+  <h3> Demo Video </h4>
+  <img src="https://cdn.discordapp.com/attachments/604858388257439765/925990566481780746/unknown.png" alt="Ayan's Project"></a>
+</div>
+
+<br>
+
 
 
 Components used:
