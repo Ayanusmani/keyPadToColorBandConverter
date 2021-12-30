@@ -1,10 +1,10 @@
 # keyPadToColorConverter
 
- <div style="width: 300px">
-  <a href="https://www.youtube.com/watch?v=7CTaBSoadaQ">
+<a href="https://www.youtube.com/watch?v=7CTaBSoadaQ">
   <h3> Demo Video </h4>
-  <img src="https://cdn.discordapp.com/attachments/604858388257439765/925990566481780746/unknown.png" alt="Ayan's Project"></a>
-</div>
+  <img src="https://cdn.discordapp.com/attachments/604858388257439765/925990566481780746/unknown.png" alt="Ayan's Project">
+</a>
+
 
 <br>
 
